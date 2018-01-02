@@ -63,3 +63,5 @@ typings/
 output/*
 
 tests/output/*
+
+tests/zlib/output/*
