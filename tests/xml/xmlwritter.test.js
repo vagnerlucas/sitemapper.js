@@ -8,7 +8,6 @@ describe('XmlWritter', () => {
         expect(result).to.not.equal(null);
     });
 
-
     it('should concatenate XML data', () => {
         let xmlWritter = new XmlWritter();
         let result = xmlWritter.writeSitemap('marcos', true);
