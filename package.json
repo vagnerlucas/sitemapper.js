@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "mocha tests/ --recursive",
+    "test:watch" : "mocha tests/ --recursive --watch",
     "start": "nodemon main.js"
   },
   "keywords": [
