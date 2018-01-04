@@ -4,8 +4,8 @@
   "description": "Creduc3 sitemap generator",
   "main": "main.js",
   "scripts": {
-    "test": "mocha tests/ --recursive",
-    "test:watch" : "mocha tests/ --recursive --watch",
+    "test": "mocha tests/ --recursive --timeout 10000",
+    "test:watch" : "mocha tests/ --recursive --watch --timeout 10000",
     "start": "nodemon main.js"
   },
   "keywords": [
