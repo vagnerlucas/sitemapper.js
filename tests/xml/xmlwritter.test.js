@@ -16,4 +16,4 @@ describe('XmlWritter', () => {
         xmlWritter.writeObject({test: 'vrl'}, true);
         expect(xmlWritter.data).to.not.be.null;
     });
-})
+});
