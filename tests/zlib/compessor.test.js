@@ -12,7 +12,7 @@ describe('Compressor', () => {
             .writeToFileStream('input data to test file')
             .close();
 
-        // for (var i = 0; i < 1000; i++)
+        // for (let i = 0; i < 1000; i++)
         //     fileStreamWritter.writeToFileStream('input data to test file');
 
         //fileStreamWritter.close();
