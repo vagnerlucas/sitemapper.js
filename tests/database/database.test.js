@@ -5,7 +5,6 @@ describe('DatabaseHelper', () => {
   it('should get some data from database', async () => {
     const dbHelper = new DatabaseHelper();
     const data = await dbHelper.fetchGenericCourseRoutes();
-    // console.log(data);
     return expect(data).not.to.be.null;
   });
 });
