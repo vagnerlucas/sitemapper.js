@@ -2,16 +2,10 @@ const { expect } = require('chai');
 const XmlWritter = require('../../lib/xml/writter');
 
 describe('XmlWritter', () => {
-  // it('should create a XML node with sitemap structure', () => {
-  //   const xmlWritter = new XmlWritter();
-  //   const result = xmlWritter.writeSitemap('marcos');
-  //   expect(result).to.not.equal(null);
-  // });
-
-  it('should create urlset header', () => {
+  it('should create a sitemap.xml structure', () => {
     const xmlWritter = new XmlWritter();
-    xmlWritter.addToUrlSet('test');
-    xmlWritter.addToUrlSet('test2');
+    xmlWritter.addToUrlSet('test', 'daily');
+    xmlWritter.addToUrlSet('test2', 'monthly', '1.0', true);
     xmlWritter.close();
     // console.log(xmlWritter.data);
     return expect(xmlWritter.data).to.not.be.null;
