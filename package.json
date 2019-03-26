@@ -17,7 +17,7 @@
   "dependencies": {
     "express": "^4.16.2",
     "node-datetime": "^2.0.3",
-    "oracledb": "^2.0.15",
+    "oracledb": "^3.1.2",
     "xml-js": "^1.6.2"
   },
   "devDependencies": {
