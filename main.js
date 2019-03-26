@@ -1,8 +1,9 @@
-var express = require('express');
-var app = express();
-var mapperRoute = require('./lib/route/mapper');
+const express = require('express');
 
-var port = process.env.PORT || 3011;
+const app = express();
+const mapperRoute = require('./lib/route/mapper');
+
+const port = process.env.PORT || 3011;
 
 app.use('/mapper', mapperRoute);
 
